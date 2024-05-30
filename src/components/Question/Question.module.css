@@ -1,0 +1,47 @@
+.questionSection {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	user-select: none;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.wrapper {
+	display: flex;
+	gap: 5px;
+	align-items: center;
+}
+
+.button {
+	color: white;
+	border: none;
+	outline: none;
+	font-size: 14px;
+	width: 150px;
+	padding: 10px 15px;
+	border-radius: 5px;
+	background-color: #b92933;
+}
+
+.button:hover {
+	text-decoration: underline;
+}
+
+.button:active {
+	scale: 0.98;
+}
+
+.buttonBack {
+	color: white;
+	border: none;
+	outline: none;
+	font-size: 14px;
+	padding: 10px 15px;
+	border-radius: 5px;
+	background-color: #b92933;
+}
